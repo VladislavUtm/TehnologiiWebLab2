@@ -1,0 +1,79 @@
+body{
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: black;
+}
+.navbar-brand{
+	float:left;
+	padding: 0 10px;
+}
+.navbar-brand img{
+	width:60px;
+	height:60px;
+	margin:-11px;
+}
+#carouselExampleIndicators.carousel.slide img{
+	border-radius: 0 0 5px 5px;
+	height:600px;
+	width:100%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#carouselExampleIndicators.carousel.slide{
+	height: 600px;
+	width:100%;
+}
+.cat{
+	background-color: black;
+	padding:5px;
+	display: inline-block;
+	margin-top:20px;
+	color: white;
+	border-radius: 3px;
+	width:100%;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+#title{
+	padding-top: 20px;
+}
+.cat img{
+	margin:0 5px 5px 0;
+	width:45%;
+	height:45%;
+}
+
+
+@media (max-width: 1200px){
+
+#carouselExampleIndicators.carousel.slide img{
+	padding:0;
+}
+}
+@media (max-width: 991px){
+	#carouselExampleIndicators.carousel.slide img{
+		height:400px;
+	}
+	#carouselExampleIndicators.carousel.slide{
+		height:400px;
+	}
+.cat img{
+	width:60%;
+}
+}
+@media (max-width: 767px){
+	#carouselExampleIndicators.carousel.slide img{
+		height:280px;
+	}
+	#carouselExampleIndicators.carousel.slide{
+		height:280px;
+	}
+	.cat img{
+		width:100%;
+	}
+}
